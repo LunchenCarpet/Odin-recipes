@@ -5,16 +5,28 @@ body {
 .titulos {
     color: rgb(195, 24, 230);
     background-color: cyan;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    font-weight: 1200;
 }
-.listas {
-    color: crimson;
-    background-color: coral;
+
+li,
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+#listas,
+.refli {
+    color: rgb(195, 24, 230);
+    background-color: rgb(255, 142, 36);
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     text-align: center;
+    line-height: 1.8;
+    font-weight: 800;
   }
 
 img {
@@ -25,3 +37,21 @@ img {
     height: 500px;
     border-radius: 8px;
 }
+
+h4 {
+    color: rgb(255, 142, 36);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+h3 {
+    color: aquamarine;
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
