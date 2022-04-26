@@ -1,12 +1,21 @@
-
+body {
+    background-color: rgb(199, 48, 199);
+}
 
 .titulos {
-    color: blueviolet;
+    color: rgb(195, 24, 230);
     background-color: cyan;
-    font-size: 36px;
+    font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
+.listas {
+    color: crimson;
+    background-color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+  }
 
 img {
     display: block;
